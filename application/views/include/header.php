@@ -52,7 +52,7 @@
             left: 275px;
             width: 800px;
         }
-        #decor
+        #decor, #dragon
         {
             border: 2px groove;
             width: 250px;
@@ -60,7 +60,7 @@
             float: left;
             
         }
-        #decorImage
+        #decorImage, #dragonImage
         {
             
             position: relative;

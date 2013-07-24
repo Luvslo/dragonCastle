@@ -36,7 +36,7 @@
 			{
 				$decorurl[$i]="http://static.itiw-webdev.com/iphone/images/dragonzootappocket/decor/d".$decorId.".png";
 				echo "<div id='decor'><div id='decorImage'><img src=".$decorurl[$i]."></div>";
-				echo "<div id='decorText' style='font-size:94%'>".$decorName."<br/>Bucks: ".$buy_bucks."<br/>Coins: ".$buy_coins."<br/> Sell Coins:".$sell_coins."</div><div>".anchor("buy/buyer/$decorId","Buy")."</div></div>";
+				echo "<div id='decorText' style='font-size:94%'>".$decorName."<br/>Bucks: ".$buy_bucks."<br/>Coins: ".$buy_coins."<br/> Sell Coins:".$sell_coins."</div><div>".anchor("buy/decor_buyer?decor=$decorId&decorName=$decorName&buy_coins=$buy_coins&buy_bucks=$buy_bucks&sell_coins=$sell_coins","Buy")."</div></div>";
 				//echo anchor("buy/buyer/$decorId","zz");
 				$i++;
 				$flag=false;

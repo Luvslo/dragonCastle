@@ -34,7 +34,7 @@
             <h3 id="myModalLabel">Buy Your Things From Here</h3>
         </div>
         <div class="modal-body">
-            <form action="">
+            <form action="<?php echo base_url();?>index.php/welcome/show_dragons_controller">
                 <button class="btn btn-info" id="button">Dragon</button>
             </form>
             
