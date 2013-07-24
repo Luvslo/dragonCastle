@@ -44,9 +44,6 @@
             $("#myModal").modal('show');
         }
     </script>
-    
-    
-    
     <style>
         #master
         {
