@@ -60,6 +60,12 @@
             float: left;
             
         }
+        #anchor
+        {
+            position: relative;
+            left: 40%;
+            margin: 0 auto;
+        }
         #decorImage, #dragonImage
         {
             

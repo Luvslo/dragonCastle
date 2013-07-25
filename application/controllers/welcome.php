@@ -12,7 +12,9 @@ class Welcome extends CI_Controller {
 	}
 	public function show_decors_controller()
         {
-            $data["header"]="include/header";
+	    $this->load->model("showDecor_model");
+            $data['all_decors']=$this->showDecor_model->showDecor();
+	    $data["header"]="include/header";
             $data["title"]="Decor Market";
             $data["main_content"]="show_decors_view.php";
             $data["footer"]="include/footer";

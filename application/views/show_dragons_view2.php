@@ -104,7 +104,7 @@
 		     //echo "<legend style='position:relative,top:150px,left:275px,width:800px'>"."<img src= 'data:image/png;base64, {$img}' />"."</legend>";
 		     //echo "<div id='dragon'><div id='dragonImage'><img src= 'data:image/png;base64, {$img}' /></div></div>";
 		     echo "<div id='decor'><div id='decorImage'><img src= 'data:image/png;base64, {$img}' /></div>";
-				echo "<div id='decorText' style='font-size:94%'>".$dragonName."<br/>Bucks: ".$buy_bucks."<br/>Coins: ".$buy_coins."<br/> Sell Coins:".$sell_coins."</div><div>".anchor("buy/dragon_buyer/$dragonId","Buy")."</div></div>";
+				echo "<div id='decorText' style='font-size:94%'>".$dragonName."<br/>Bucks: ".$buy_bucks."<br/>Coins: ".$buy_coins."<br/> Sell Coins:".$sell_coins."</div><div id='anchor'>".anchor("buy/dragon_buyer/$dragonId","Buy")."</div></div>";
 		     $i++;
 		     $flag=false;  
 	      }
